@@ -58,14 +58,5 @@ public class NewBehaviourScript : MonoBehaviour
         newProjectile.GetComponent<MeshRenderer>().material.color =
             new Color(Random.value, Random.value, Random.value, 1.0f);
     }
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

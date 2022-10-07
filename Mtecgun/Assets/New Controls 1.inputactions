@@ -1,0 +1,34 @@
+{
+    "name": "New Controls 1",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "5a917842-82e8-48d6-a394-1b58117c8d67",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "3fa9937f-8e10-4c90-aef2-76fea4d1d84b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d0d74616-0918-42fe-9108-7afd825c90af",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "SlowTap,Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
